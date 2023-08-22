@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+      <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Simple Weather App</title>
+
+            <!--CSS-->
+            <link rel="stylesheet" href="./assets/CSS/normalize.css" />
+            <link rel="stylesheet" href="./assets/CSS/main.css" />
+      </head>
+      <body>
+            <main>
+                  <div class="mainContainer">
+                        <div class="weatherImg">
+                              <img id="weatherImg" src="./assets/img/weather/cloudy-1-day.svg" alt="Soleil" />
+                        </div>
+                        <div class="topInfo">
+                              <h1 id="city">Votre Ville</h1>
+                              <h3 id="description">Quel temps fait-il dehors ?</h3>
+                        </div>
+                        <div class="searchContainer">
+                              <div class="searchCity">
+                                    <input id="searchCityInput" type="text" placeholder="Rechercher ma ville..." />
+                                    <label for="searchCityInput">Nom de ma ville...</label>
+                                    <p class="findBtn2">Rechercher</p>
+                              </div>
+                              <div class="autoFind">
+                                    <p class="findBtn">Trouver ma ville automatiquement (approximatif)</p>
+                              </div>
+                        </div>
+                        <div class="currentWeather">
+                              <div class="weatherInfos">
+                                    <div class="tempContainer">
+                                          <h2 id="temp">0°</h2>
+                                          <p>ressenti</p>
+                                          <h2 id="ressenti">0°</h2>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </main>
+            <footer>
+                  <p>Développé par <a href="http://tristan-viard.fr" target="_blank">Tritan VIARD</a></p>
+            </footer>
+            <script src="./assets/JS/main.js"></script>
+      </body>
+</html>
