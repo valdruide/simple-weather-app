@@ -81,9 +81,9 @@ const indexPage = {
             description.innerText = res.list[0].weather[0].description;
 
             if (res.list[0].weather[0].icon == '01d') {
-                  weatherImg.setAttribute('src', 'assets/img/weather/clear-day.svg');
+                  weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             } else if (res.list[0].weather[0].icon == '01n') {
-                  weatherImg.setAttribute('src', 'assets/img/weather/clear-night.svg');
+                  weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-night.svg');
             } else if (res.list[0].weather[0].icon == '02d') {
                   weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             } else if (res.list[0].weather[0].icon == '02n') {
@@ -131,9 +131,9 @@ const indexPage = {
             description.innerText = res.weather[0].description;
 
             if (res.weather[0].icon == '01d') {
-                  weatherImg.setAttribute('src', 'assets/img/weather/clear-day.svg');
+                  weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             } else if (res.weather[0].icon == '01n') {
-                  weatherImg.setAttribute('src', 'assets/img/weather/clear-night.svg');
+                  weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-night.svg');
             } else if (res.weather[0].icon == '02d') {
                   weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             } else if (res.weather[0].icon == '02n') {
