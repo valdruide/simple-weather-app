@@ -7,11 +7,11 @@ const indexPage = {
             const bgImg = document.getElementsByTagName('main')[0];
             if (hour < 7 || hour > 20) {
                   bgImg.classList.add('nightBg');
-                  document.documentElement.style.setProperty('--color', '#fff');
+                  document.documentElement.style.setProperty('--color', '#fcfcfc');
                   weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-night.svg');
             } else {
                   bgImg.classList.add('dayBg');
-                  document.documentElement.style.setProperty('--color', '#1b1b1b');
+                  document.documentElement.style.setProperty('--color', '#011638');
                   weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             }
             //fin changement background jour/nuit
