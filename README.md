@@ -1,6 +1,5 @@
 
-# Simple Weather App using OpenWeatherMap API
-Auto light/dark mode with cool features.
+# Simple Weather App using OpenWeatherMap API and auto light/dark mode
 
 Just a small project to challenge me with the API and how fast i can develop a simple weather app.
 
