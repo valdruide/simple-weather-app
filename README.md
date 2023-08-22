@@ -22,13 +22,17 @@ Just a small project to challenge me with the API and how fast i can develop a s
 
 ## API Reference
 
-https://openweathermap.org/api
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+DOC : https://openweathermap.org/current
 
 
-Change the API key in `main.js` in the `getWeather()` function and `getWeatherAuto()` function.
 
-You can find the API key to replace at the `fetch` line ('`&appid=`' parameter ine the URL)
+| Parameter | Type     | Description                |Use|Doc|
+| :-------- | :------- | :------------------------- | :---------- | :---------- |
+| `appid` | `string` | **Required**. Your API key | Your API Key | //|
+| `lang` | `string` | **Optional**. Language to display | ex: fr, en, de...| https://openweathermap.org/current#multi |
+| `units` | `string` | **Optional**. Units of measurement | `standard`, `metric`, `imperial` | https://openweathermap.org/current#data|
+
+
+Change the parameters in `main.js` in the `getWeather()` function and `getWeatherAuto()` function.
+
+You can find the parameters to replace at the `fetch` line (in the URL)
