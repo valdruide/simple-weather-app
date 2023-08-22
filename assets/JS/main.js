@@ -15,6 +15,7 @@ const indexPage = {
                   weatherImg.setAttribute('src', 'assets/img/weather/cloudy-1-day.svg');
             }
             //fin changement background jour/nuit
+
             const findBtn2 = document.querySelector('.findBtn2');
             const findBtn = document.querySelector('.findBtn');
             const searchCityInput = document.getElementById('searchCityInput');
