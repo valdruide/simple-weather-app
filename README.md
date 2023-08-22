@@ -6,7 +6,7 @@ Just a small project to challenge me with the API and how fast i can develop a s
 
 ## Features
 
-- Auto Light/dark mode toggle with changig backgroud, colors and weather icon depending on what time it is where you are
+- Auto Light/dark mode toggle with changing background, colors and weather icon depending on what time it is where you are
 - Animated SVG icon
 - Search bar or auto GPS location
 - soon...
@@ -29,6 +29,6 @@ https://openweathermap.org/api
 | `api_key` | `string` | **Required**. Your API key |
 
 
-Change the API key in `main.js` ine the `getWeather()` function and `getWeatherAuto()` function.
+Change the API key in `main.js` in the `getWeather()` function and `getWeatherAuto()` function.
 
 You can find the API key to replace at the `fetch` line ('`&appid=`' parameter ine the URL)
