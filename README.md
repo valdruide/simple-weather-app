@@ -1,16 +1,16 @@
 
 # Simple Weather App using OpenWeatherMap API and auto light/dark mode
 
-Just a small project to challenge me with the API and how fast i can develop a simple weather app.
-
-
 ## Features
+[EN] :
+- This simple web application allows users to search for weather information in any city around the world. It provides real-time weather data, including temperature, humidity, wind speed, and conditions.
+- Users can also enable geolocation to get weather updates based on their current location.
+- The app features an automatic light and dark mode that adapts to the user's local time. It ensures a comfortable viewing experience, whether it's day or night.
 
-- Auto Light/dark mode toggle with changing background, colors and weather icon depending on what time it is where you are
-- Animated SVG icon
-- Search bar or auto GPS location
-- soon...
-
+[FR] : 
+- Cette application web simple permet aux utilisateurs de rechercher des informations météorologiques dans n'importe quelle ville du monde. Elle fournit des données météorologiques en temps réel, notamment la température, l'humidité, la vitesse du vent et les conditions météorologiques.
+- Les utilisateurs peuvent également activer la géolocalisation pour obtenir des mises à jour météorologiques basées sur leur emplacement actuel.
+- L'application dispose d'un mode clair et sombre automatique qui s'adapte à l'heure locale de l'utilisateur. Cela garantit une expérience de visionnage confortable, que ce soit de jour ou de nuit.
 
 ## Screenshots
 
