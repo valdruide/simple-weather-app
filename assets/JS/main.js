@@ -1,4 +1,5 @@
-const apiKey = '16e2cd104a9e2c836236ba7af3b71bc1';
+const apiKey = '16e2cd104a9e2c836236ba7af3b71bc1'; // Change with your API KEY
+
 const indexPage = {
       init: function () {
             //change background if it's day or night
