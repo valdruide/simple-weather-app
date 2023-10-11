@@ -49,9 +49,7 @@ DOC : https://openweathermap.org/current
 | `units` | `string` | **Optional**. Units of measurement | `standard`, `metric`, `imperial` | https://openweathermap.org/current#data|
 
 
-Change the parameters in `main.js` in the `getWeather()` function and `getWeatherAuto()` function.
-
-You can find the parameters to replace at the `fetch` line (in the URL)
+Change the 'apiKey' variable in `main.js` at the first line
 
 ## Features
 
