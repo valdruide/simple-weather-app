@@ -1,3 +1,4 @@
+const apiKey = '16e2cd104a9e2c836236ba7af3b71bc1';
 const indexPage = {
       init: function () {
             //change background if it's day or night
@@ -41,10 +42,9 @@ const indexPage = {
       },
       getWeather: async function (cityName) {
             try {
-                  // CHANGE THE '&appid=' bellow with your app ID
-                  // You can chage the '&lang=' too
+                  // You can chage the '&lang='
                   // You can chage the '&units=' to 'metric' for Celsius or 'standard' for Fahrenheit
-                  const response = await fetch('https://api.openweathermap.org/data/2.5/find?q=' + cityName + '&units=metric&appid=16e2cd104a9e2c836236ba7af3b71bc1&lang=en');
+                  const response = await fetch('https://api.openweathermap.org/data/2.5/find?q=' + cityName + '&units=metric&appid=' + apiKey + '&lang=en');
                   const res = await response.json();
                   console.log(res);
                   if (res.count == 0) {
@@ -62,9 +62,9 @@ const indexPage = {
       getWeatherAuto: async function (lat, long) {
             try {
                   const response = await fetch(
-                        // CHANGE THE '&appid=' bellow with your app ID
-                        // You can chage the '&lang=' too
-                        'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&lang=en&units=metric&appid=16e2cd104a9e2c836236ba7af3b71bc1'
+                        // You can chage the '&lang='
+                        // You can chage the '&units=' to 'metric' for Celsius or 'standard' for Fahrenheit
+                        'https://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + long + '&lang=en&units=metric&appid=' + apiKey
                   );
                   const res = await response.json();
                   console.log(res);
